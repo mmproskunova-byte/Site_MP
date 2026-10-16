@@ -488,11 +488,19 @@ a { color: var(--gold); }
 /* Плашка с результатом */
 
 .structure__result {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 6px;
   padding: 13px 16px;
   background: var(--card);
   border: 1px solid var(--line);
   border-left: 3px solid var(--gold);
   border-radius: 0 var(--radius-sm) var(--radius-sm) 0;
+}
+
+.structure__result p {
+  margin: 0;
   font-size: 14px;
   line-height: 1.45;
   color: var(--ink);

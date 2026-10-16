@@ -3,12 +3,12 @@
 Одностраничный сайт без сборки и фреймворков: `index.html`, `styles.css`, `app.js`, папка `images/`.
 Стилистика — светлый серо-голубой фон (#F3F5F9), серифные заголовки, золотой акцент.
 
-- Адрес после публикации: **(https://mmproskunova-byte/Site_MP)**
+- Адрес после публикации: **https://mmproskunova-byte.github.io/Site_MP/**
 - Контакты уже прописаны: Telegram [@marinaprosk7](https://t.me/marinaprosk7), почта mmproskunova@gmail.com
 
 ## Файлы сайта
 
-Их нужно загрузить в репозиторий:
+Их нужно загрузить в репозиторий **Site_MP**:
 
 ```
 index.html
@@ -28,10 +28,7 @@ images/           (7 файлов: og-image.png, FlowBoard.png, Fotograf.png,
 
 ## Публикация на GitHub Pages
 
-1. **Создайте репозиторий.** Имя — `mmproskunova-byte.github.io`, тип — **Public**.
-   С таким именем сайт откроется по короткому адресу https://mmproskunova-byte.github.io/.
-   Если назвать иначе (например `portfolio`), адрес будет https://mmproskunova-byte.github.io/portfolio/ —
-   тогда обязательно выполните пункт 6.
+1. **Создайте репозиторий.** Имя — `Site_MP`, тип — **Public**.
 
 2. **Загрузите файлы.** На странице репозитория: *Add file → Upload files*, перетащите файлы из списка
    выше (папку `images` — целиком). Внизу нажмите *Commit changes*.
@@ -42,12 +39,10 @@ images/           (7 файлов: og-image.png, FlowBoard.png, Fotograf.png,
 
 4. **Включите Pages.** *Settings → Pages → Source: Deploy from a branch → Branch: `main`, папка `/ (root)` → Save.*
 
-5. **Проверьте адрес.** Через 1–2 минуты сайт откроется по ссылке из раздела Pages.
+5. **Проверьте адрес.** Через 1–2 минуты сайт откроется по адресу **https://mmproskunova-byte.github.io/Site_MP/**
 
-6. **Если адрес другой** (репозиторий назван не `mmproskunova-byte.github.io`), замените адрес сайта
-   в трёх файлах — больше нигде он не встречается:
-   - `index.html` — в начале файла есть комментарий «Адрес сайта»: строки с `rel="canonical"`,
-     `og:image` и `og:url`;
+6. **Если адрес другой** — замените адрес сайта в трёх файлах (больше нигде не встречается):
+   - `index.html` — строки с `rel="canonical"`, `og:image` и `og:url`;
    - `robots.txt` — строка `Sitemap: …`;
    - `sitemap.xml` — строка `<loc>…</loc>`.
 
