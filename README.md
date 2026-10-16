@@ -3,7 +3,7 @@
 Одностраничный сайт без сборки и фреймворков: `index.html`, `styles.css`, `app.js`, папка `images/`.
 Стилистика — светлый серо-голубой фон (#F3F5F9), серифные заголовки, золотой акцент.
 
-- Адрес после публикации: **https://mmproskunova-byte.github.io/**
+- Адрес после публикации: **(https://mmproskunova-byte.github.io/Site_MP/)**
 - Контакты уже прописаны: Telegram [@marinaprosk7](https://t.me/marinaprosk7), почта mmproskunova@gmail.com
 
 ## Файлы сайта
