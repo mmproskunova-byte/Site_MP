@@ -1,0 +1,558 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <!-- SEO -->
+  <title>Марина Проскунова — маркетплейсы, тексты, лендинги, трекинг задач</title>
+  <meta name="description" content="Помогаю малому бизнесу расти: SEO-описания и карточки для Ozon, Wildberries и Яндекс Маркета, тексты и лендинги под ключ, настройка трекера задач для небольших команд.">
+  <meta name="author" content="Марина Проскунова">
+  <meta name="theme-color" content="#F3F5F9">
+
+  <!-- Адрес сайта. Если репозиторий назовёте иначе — поменяйте в 3 местах:
+       здесь (canonical, og:image, og:url), в robots.txt и в sitemap.xml -->
+  <link rel="canonical" href="https://mmproskunova-byte.github.io/">
+
+  <!-- Иконка сайта -->
+  <link rel="icon" href="favicon.svg" type="image/svg+xml">
+  <link rel="icon" href="images/favicon-32.png" sizes="32x32" type="image/png">
+  <link rel="apple-touch-icon" href="images/apple-touch-icon.png">
+
+  <!-- Open Graph (превью в Telegram) -->
+  <meta property="og:type" content="website">
+  <meta property="og:locale" content="ru_RU">
+  <meta property="og:site_name" content="Марина Проскунова">
+  <meta property="og:title" content="Марина Проскунова — маркетплейсы, тексты, лендинги">
+  <meta property="og:description" content="Карточки и SEO для маркетплейсов, лендинги под ключ и порядок в задачах команды. Расскажите о своей задаче в Telegram.">
+  <meta property="og:image" content="https://mmproskunova-byte.github.io/images/og-image.png">
+  <meta property="og:image:width" content="1200">
+  <meta property="og:image:height" content="630">
+  <meta property="og:image:alt" content="Марина Проскунова: карточки и SEO для маркетплейсов, лендинги под ключ, трекер задач">
+  <meta property="og:url" content="https://mmproskunova-byte.github.io/">
+  <meta name="twitter:card" content="summary_large_image">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Playfair+Display:ital,wght@0,600;0,700;0,900;1,600;1,700&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+  <!-- ============ 1. Шапка ============ -->
+  <header class="header" id="top">
+    <div class="container header__inner">
+      <a class="logo" href="#top">
+        <span class="logo__mark" aria-hidden="true">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round">
+            <path d="M12 3l2.2 5.6L20 9.6l-4 4.1.9 5.8-4.9-2.9-4.9 2.9.9-5.8-4-4.1 5.8-1z"/>
+          </svg>
+        </span>
+        <span class="logo__text">Марина<br>Проскунова</span>
+      </a>
+
+      <nav class="nav" id="site-nav" aria-label="Основная навигация">
+        <a class="nav__link" href="#services">Услуги</a>
+        <a class="nav__link" href="#cases">Кейсы</a>
+        <a class="nav__link" href="#about">Обо мне</a>
+        <a class="nav__link" href="#process">Как работаем</a>
+        <a class="nav__link" href="#faq">Вопросы</a>
+      </nav>
+
+      <a class="btn btn--primary header__cta" href="#" data-contact="telegram">Написать в Telegram</a>
+
+      <button class="burger" type="button" aria-expanded="false" aria-controls="site-nav" aria-label="Открыть меню">
+        <span class="burger__line"></span>
+        <span class="burger__line"></span>
+        <span class="burger__line"></span>
+      </button>
+    </div>
+  </header>
+
+  <main>
+
+    <!-- ============ 2. Первый экран ============ -->
+    <section class="hero">
+      <div class="container hero__inner">
+        <div class="hero__content">
+          <p class="eyebrow">
+            <span class="eyebrow__dash" aria-hidden="true"></span>
+            Марина Проскунова · маркетплейсы, тексты, лендинги, трекинг
+          </p>
+
+          <h1 class="hero__title">
+            Помогаю малому бизнесу <em>расти</em>: от карточки товара на маркетплейсе до готового лендинга
+          </h1>
+
+          <p class="hero__subtitle">
+            Пишу SEO-описания, ставлю задачи на визуал, делаю лендинги и навожу порядок в задачах команды.
+          </p>
+
+          <div class="hero__actions">
+            <a class="btn btn--primary" href="#" data-contact="telegram">Написать в Telegram</a>
+            <a class="btn btn--ghost" href="#cases">Смотреть кейсы</a>
+          </div>
+
+          <a class="hero__fact" href="#case">
+            <span class="hero__fact-num" aria-hidden="true">×2</span>
+            <span class="hero__fact-text">В 2&nbsp;раза за месяц после запуска карточек — <b>смотреть кейс</b></span>
+          </a>
+
+          <dl class="stats">
+            <div class="stats__item">
+              <dt class="stats__num">3</dt>
+              <dd class="stats__label">маркетплейса в работе:<br>Ozon, Wildberries, Яндекс&nbsp;Маркет</dd>
+            </div>
+            <div class="stats__item">
+              <dt class="stats__num">×2</dt>
+              <dd class="stats__label">рост продаж в главном<br>кейсе за месяц</dd>
+            </div>
+            <div class="stats__item">
+              <dt class="stats__num">500&nbsp;₽</dt>
+              <dd class="stats__label">ставка от, за час;<br>оценка — после брифа</dd>
+            </div>
+          </dl>
+        </div>
+
+        <div class="hero__visual">
+          <h2 class="structure__title">Из чего состоит карточка, которая продаёт</h2>
+
+          <figure class="structure reveal">
+            <div class="structure__grid">
+              <div class="structure__col">
+                <div class="searchbar">
+                  <svg class="searchbar__icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                    <circle cx="11" cy="11" r="6.5"/>
+                    <path d="M20 20l-4.2-4.2"/>
+                  </svg>
+                  <span class="searchbar__query">беговые кроссовки женские</span>
+                </div>
+
+                <article class="pcard">
+                  <div class="pcard__media" aria-hidden="true">
+                    <svg class="pcard__shoe" viewBox="0 0 120 80" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                      <path d="M12 56c0-16 7-25 20-26 9-1 16 3 20 11 6 11 20 15 38 16l22 2"/>
+                      <path d="M8 62h100"/>
+                      <path d="M30 36l15 8"/>
+                      <path d="M36 30l14 8"/>
+                    </svg>
+                  </div>
+                  <div class="pcard__body">
+                    <h3 class="pcard__title">Женские беговые кроссовки: амортизация, дышащий верх, размеры 36–42</h3>
+                    <p class="pcard__text">Для пробежек и города: лёгкая подошва, устойчивая пятка, верх из дышащей сетки.</p>
+                    <p class="pcard__text">Стелька вынимается, вес небольшой — комфортно на каждый день.</p>
+                    <p class="pcard__text">Без общих слов: покупатель сразу видит, что важно.</p>
+                  </div>
+                </article>
+
+                <p class="structure__result">
+                  В 2 раза за месяц после запуска.
+                  <a class="link" href="#case">Кейс с обувью</a>
+                </p>
+              </div>
+
+              <ol class="marks">
+                <li class="marks__item"><span class="marks__num">1</span>Ключи в названии</li>
+                <li class="marks__item"><span class="marks__num">2</span>Структура описания</li>
+                <li class="marks__item"><span class="marks__num">3</span>ТЗ на визуал для дизайнера</li>
+                <li class="marks__item"><span class="marks__num">4</span>Аналитика ниши перед запуском</li>
+              </ol>
+            </div>
+
+            <figcaption class="structure__caption">Иллюстрация структуры карточки</figcaption>
+          </figure>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============ 3. Услуги и цены ============ -->
+    <section class="section" id="services">
+      <div class="container">
+        <header class="section__head reveal">
+          <p class="eyebrow"><span class="eyebrow__dash" aria-hidden="true"></span>Услуги и цены</p>
+          <h2 class="section__title">Что я <em>делаю</em> для вашего бизнеса</h2>
+          <p class="section__lead">Четыре направления. Первым идёт опыт на маркетплейсах, остальные — продолжение.</p>
+        </header>
+
+        <div class="cards">
+          <article class="card reveal">
+            <span class="card__icon" aria-hidden="true">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round">
+                <path d="M4 7h16l-1.2 12.2a2 2 0 01-2 1.8H7.2a2 2 0 01-2-1.8z"/>
+                <path d="M9 10V6a3 3 0 016 0v4"/>
+              </svg>
+            </span>
+            <h3 class="card__title">Карточки и SEO для маркетплейсов</h3>
+            <p class="card__text">Ozon, Wildberries, Яндекс Маркет. Готовлю карточку, которую находят и покупают.</p>
+            <ul class="card__list">
+              <li>аналитика ниши и конкурентов</li>
+              <li>SEO-ключи и заголовок</li>
+              <li>описание и буллеты</li>
+              <li>структура карточки</li>
+              <li>ТЗ на визуал для дизайнера</li>
+            </ul>
+            <p class="card__price">от 500&nbsp;₽ <span>за час</span></p>
+          </article>
+
+          <article class="card reveal">
+            <span class="card__icon" aria-hidden="true">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round">
+                <path d="M4 5h16v14H4z"/>
+                <path d="M7 9h7M7 12h10M7 15h5"/>
+              </svg>
+            </span>
+            <h3 class="card__title">Текст для лендинга</h3>
+            <p class="card__text">Страница, которая понятно объясняет предложение и подводит к действию.</p>
+            <ul class="card__list">
+              <li>структура и логика страницы</li>
+              <li>заголовки и оффер</li>
+              <li>ответы на возражения</li>
+              <li>призыв к действию</li>
+            </ul>
+            <p class="card__price">от 500&nbsp;₽ <span>за час</span></p>
+          </article>
+
+          <article class="card reveal">
+            <span class="card__icon" aria-hidden="true">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round">
+                <path d="M8 8l-4 4 4 4M16 8l4 4-4 4M13 5l-2 14"/>
+              </svg>
+            </span>
+            <h3 class="card__title">Лендинг под ключ</h3>
+            <p class="card__text">Готовая страница: текст, структура и вёрстка. Открывается с телефона и компьютера.</p>
+            <ul class="card__list">
+              <li>текст и структура</li>
+              <li>вёрстка на HTML, CSS, JavaScript</li>
+              <li>адаптив под мобильные</li>
+              <li>размещение на хостинге</li>
+            </ul>
+            <p class="card__price">от 500&nbsp;₽ <span>за час</span></p>
+          </article>
+
+          <article class="card reveal">
+            <span class="card__icon" aria-hidden="true">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round">
+                <rect x="3" y="4" width="5" height="16" rx="1"/>
+                <rect x="9.5" y="4" width="5" height="11" rx="1"/>
+                <rect x="16" y="4" width="5" height="7" rx="1"/>
+              </svg>
+            </span>
+            <h3 class="card__title">Трекер задач для команды</h3>
+            <p class="card__text">Навожу порядок в задачах: кому что назначено, что горит, что уже готово.</p>
+            <ul class="card__list">
+              <li>доска задач и статусы</li>
+              <li>роли и права доступа</li>
+              <li>уведомления и дедлайны</li>
+              <li>правила для небольшой команды</li>
+            </ul>
+            <p class="card__price">от 500&nbsp;₽ <span>за час</span></p>
+          </article>
+        </div>
+
+        <p class="section__note reveal">Оценку по часам назову после брифа, до начала работы.</p>
+
+        <div class="section__cta reveal">
+          <a class="btn btn--primary" href="#" data-contact="telegram">Написать в Telegram</a>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============ 4. Главный кейс ============ -->
+    <section class="section section--tint" id="cases">
+      <div class="container">
+        <header class="section__head reveal">
+          <p class="eyebrow"><span class="eyebrow__dash" aria-hidden="true"></span>Главный кейс</p>
+          <h2 class="section__title">Карточки — <em>магнит для продаж</em></h2>
+          <p class="section__lead">Категория: обувь. Задача → что сделала → результат: в 2&nbsp;раза за месяц.</p>
+        </header>
+
+        <div class="case" id="case">
+          <article class="case__step reveal">
+            <span class="case__num" aria-hidden="true">01</span>
+            <h3 class="case__title">Задача</h3>
+            <p class="case__text">Запустить товар в категории «обувь» и вывести продажи на рост: карточки должны находить в поиске и читать до конца.</p>
+          </article>
+
+          <article class="case__step reveal">
+            <span class="case__num" aria-hidden="true">02</span>
+            <h3 class="case__title">Что сделала</h3>
+            <p class="case__text">Аналитика ниши, SEO-ключи, описания, структура карточек и ТЗ на визуал для дизайнера.</p>
+          </article>
+
+          <article class="case__step reveal">
+            <span class="case__num" aria-hidden="true">03</span>
+            <h3 class="case__title">Результат</h3>
+            <p class="case__big">×2</p>
+            <p class="case__text">рост продаж в течение месяца после запуска карточек.</p>
+          </article>
+        </div>
+
+        <figure class="chart reveal">
+          <figcaption class="chart__caption">Продажи: до запуска карточек и через месяц</figcaption>
+          <div class="chart__row">
+            <span class="chart__label">до запуска</span>
+            <span class="chart__track"><span class="chart__bar" style="width: 50%"></span></span>
+            <span class="chart__x2" aria-hidden="true"></span>
+          </div>
+          <div class="chart__row">
+            <span class="chart__label">через месяц</span>
+            <span class="chart__track"><span class="chart__bar chart__bar--x2" style="width: 100%"></span></span>
+            <span class="chart__x2">×2</span>
+          </div>
+        </figure>
+
+        <p class="section__note reveal">Площадку, объём запуска и детали проекта не вывожу в открытый доступ — расскажу на брифе в Telegram.</p>
+
+        <div class="section__cta reveal">
+          <a class="btn btn--primary" href="#" data-contact="telegram">Написать в Telegram</a>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============ 5. Учебные проекты ============ -->
+    <section class="section" id="projects">
+      <div class="container">
+        <header class="section__head reveal">
+          <p class="eyebrow"><span class="eyebrow__dash" aria-hidden="true"></span>Учебные проекты</p>
+          <h2 class="section__title">Проекты, которые я сделала <em>сама</em></h2>
+          <p class="section__lead">Учебный проект: тема, запрос, ТЗ, визуал и подача придуманы и сделаны мной самостоятельно. Выдуманных клиентов и отзывов нет.</p>
+        </header>
+
+        <div class="projects">
+          <article class="project project--wide reveal">
+            <div class="project__preview project__preview--shot">
+              <img src="images/FlowBoard.png" alt="Скриншот доски задач FlowBoard: пять колонок — Бэклог, В работе, На ревью, Тестирование, Готово" width="1123" height="811" loading="lazy">
+            </div>
+            <div class="project__body">
+              <span class="tag">Учебный проект</span>
+              <h3 class="project__title">FlowBoard — канбан-трекер для небольшой IT-команды</h3>
+              <p class="project__text">Пять колонок: Бэклог → В работе → На ревью → Тестирование → Готово. Четыре роли с разными правами (PM, разработчик, тестировщик, заказчик), перетаскивание карточек, правила переходов, комментарии, уведомления, подсветка горящих дедлайнов, поиск и приоритеты.</p>
+              <p class="project__meta">Стек: чистые HTML, CSS, JavaScript. Есть ТЗ и брендбук «Спокойный фокус».</p>
+              <div class="project__links">
+                <a class="link" href="https://github.com/mmproskunova-byte/Tracker_DoskaIT" target="_blank" rel="noopener noreferrer">Код на GitHub</a>
+              </div>
+            </div>
+          </article>
+
+          <article class="project project--wide reveal">
+            <div class="project__preview project__preview--shots">
+              <figure class="shot">
+                <img src="images/Fotograf.png" alt="Скриншот демо-лендинга для фотографа" width="640" height="721" loading="lazy">
+                <figcaption>фотограф</figcaption>
+              </figure>
+              <figure class="shot">
+                <img src="images/yoga.png" alt="Скриншот демо-лендинга для йога-студии" width="627" height="829" loading="lazy">
+                <figcaption>йога-студия</figcaption>
+              </figure>
+            </div>
+            <div class="project__body">
+              <span class="tag">Учебный проект · демо</span>
+              <h3 class="project__title">Лендинг (демо)</h3>
+              <p class="project__text">Продающая страница: боли клиента, оффер, портфолио, отзывы, FAQ, шаги работы и призыв к действию. Видно, как логика текста ведёт от страха клиента к снятию риска.</p>
+              <p class="project__meta">Демо-проект: герой и отзывы вымышленные.</p>
+              <div class="project__links">
+                <a class="link" href="https://fotokirill.netlify.app" target="_blank" rel="noopener noreferrer">Фотограф</a>
+                <a class="link" href="https://yogast-balance.netlify.app" target="_blank" rel="noopener noreferrer">Йога-студия</a>
+              </div>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============ 6. Обо мне ============ -->
+    <section class="section section--tint" id="about">
+      <div class="container about">
+        <figure class="about__photo reveal">
+          <img src="images/photo-placeholder.svg" alt="Фото Марины Проскуновой — временная заглушка, реальное фото появится позже" width="400" height="500">
+        </figure>
+
+        <div class="about__content reveal">
+          <p class="eyebrow"><span class="eyebrow__dash" aria-hidden="true"></span>Обо мне</p>
+          <h2 class="section__title">Меня зовут <em>Марина</em></h2>
+          <p class="about__text">Я фрилансер. Большую часть опыта собрала на трёх маркетплейсах: Ozon, Wildberries и Яндекс Маркете — карточки товаров, SEO-описания, аналитика и ТЗ на визуал. Сейчас помогаю малому бизнесу расти: пишу тексты, делаю лендинги и настраиваю порядок в задачах команд.</p>
+          <p class="about__text">Работаю честно: учебные проекты подписываю как учебные, результат проверяю сама, оценку по часам называю до старта.</p>
+
+          <h3 class="about__subtitle">Чем работаю</h3>
+          <ul class="skills">
+            <li class="skills__item">
+              <span class="skills__name">Аналитика и SEO для маркетплейсов</span>
+              <span class="skills__level">уверенно</span>
+            </li>
+            <li class="skills__item">
+              <span class="skills__name">Яндекс Директ и продвижение</span>
+              <span class="skills__level">уверенно</span>
+            </li>
+            <li class="skills__item">
+              <span class="skills__name">ИИ-ассистенты для текстов и кода: Claude, DeepSeek, Qwen, OpenCode</span>
+              <span class="skills__level">уверенно</span>
+            </li>
+            <li class="skills__item">
+              <span class="skills__name">Вёрстка на HTML, CSS, JavaScript</span>
+              <span class="skills__level skills__level--learn">осваиваю</span>
+            </li>
+          </ul>
+          <p class="about__honest">Визуал: ставлю чёткое ТЗ дизайнеру — сама пока не рисую. Это моя рабочая роль, а не недостаток.</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============ 7. Как работаем ============ -->
+    <section class="section" id="process">
+      <div class="container">
+        <header class="section__head reveal">
+          <p class="eyebrow"><span class="eyebrow__dash" aria-hidden="true"></span>Как работаем</p>
+          <h2 class="section__title">Понятный путь <em>без сюрпризов</em></h2>
+        </header>
+
+        <ol class="steps">
+          <li class="steps__item reveal">
+            <span class="steps__num">1</span>
+            <span class="steps__icon" aria-hidden="true">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round">
+                <path d="M20 15a3 3 0 01-3 3H8l-4 3V6a3 3 0 013-3h10a3 3 0 013 3z"/>
+                <path d="M8 8.5h8M8 12h5"/>
+              </svg>
+            </span>
+            <h3 class="steps__title">Бриф в Telegram</h3>
+            <p class="steps__text">Вы рассказываете о задаче — простым языком, как есть.</p>
+          </li>
+          <li class="steps__item reveal">
+            <span class="steps__num">2</span>
+            <span class="steps__icon" aria-hidden="true">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round">
+                <path d="M14 3H7a2 2 0 00-2 2v14a2 2 0 002 2h10a2 2 0 002-2V8z"/>
+                <path d="M14 3v5h5"/>
+                <path d="M9 14l2 2 4-4"/>
+              </svg>
+            </span>
+            <h3 class="steps__title">ТЗ и согласование</h3>
+            <p class="steps__text">Фиксируем, что и как будет сделано, и оценку по часам.</p>
+          </li>
+          <li class="steps__item reveal">
+            <span class="steps__num">3</span>
+            <span class="steps__icon" aria-hidden="true">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round">
+                <path d="M4 20h4L18.5 9.5l-4-4L4 16z"/>
+                <path d="M13.5 6.5l4 4"/>
+              </svg>
+            </span>
+            <h3 class="steps__title">Работа</h3>
+            <p class="steps__text">Делаю задачу и держу вас в курсе по ходу.</p>
+          </li>
+          <li class="steps__item reveal">
+            <span class="steps__num">4</span>
+            <span class="steps__icon" aria-hidden="true">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round">
+                <path d="M4 9a8 8 0 0113.6-4.4L20 7"/>
+                <path d="M20 4v4h-4"/>
+                <path d="M20 15a8 8 0 01-13.6 4.4L4 17"/>
+                <path d="M4 20v-4h4"/>
+              </svg>
+            </span>
+            <h3 class="steps__title">Правки</h3>
+            <p class="steps__text">Вношу правки после одного тестирования по ТЗ.</p>
+          </li>
+          <li class="steps__item reveal">
+            <span class="steps__num">5</span>
+            <span class="steps__icon" aria-hidden="true">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round">
+                <circle cx="12" cy="12" r="9"/>
+                <path d="M8.5 12.5l2.5 2.5 4.5-5"/>
+              </svg>
+            </span>
+            <h3 class="steps__title">Сдача</h3>
+            <p class="steps__text">Отдаю результат и объясняю, что к чему.</p>
+          </li>
+        </ol>
+      </div>
+    </section>
+
+    <!-- ============ 8. Частые вопросы ============ -->
+    <section class="section section--tint" id="faq">
+      <div class="container container--narrow">
+        <header class="section__head reveal">
+          <p class="eyebrow"><span class="eyebrow__dash" aria-hidden="true"></span>Частые вопросы</p>
+          <h2 class="section__title">Коротко о <em>главном</em></h2>
+        </header>
+
+        <div class="faq reveal">
+          <details class="faq__item">
+            <summary class="faq__q"><span class="faq__icon" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M20.6 13.4L12 4.8H4.8V12l8.6 8.6a2 2 0 002.8 0l4.4-4.4a2 2 0 000-2.8z"/><circle cx="8.6" cy="8.6" r="1.3"/></svg></span>Сколько это стоит?</summary>
+            <div class="faq__a"><p>Ставка — от 500&nbsp;₽ за час. Точную оценку проекта назову после брифа, до начала работы.</p></div>
+          </details>
+          <details class="faq__item">
+            <summary class="faq__q"><span class="faq__icon" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="9"/><path d="M12 7v5l3.5 2"/></svg></span>Сколько займёт работа?</summary>
+            <div class="faq__a"><p>Зависит от объёма. Срок называю после брифа — вместе с оценкой по часам.</p></div>
+          </details>
+          <details class="faq__item">
+            <summary class="faq__q"><span class="faq__icon" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M4 9a8 8 0 0113.6-4.4L20 7"/><path d="M20 4v4h-4"/><path d="M20 15a8 8 0 01-13.6 4.4L4 17"/><path d="M4 20v-4h4"/></svg></span>Что с правками?</summary>
+            <div class="faq__a"><p>Правки вношу после одного тестирования по ТЗ. Если задача меняется — оцениваем её отдельно и снова согласовываем.</p></div>
+          </details>
+          <details class="faq__item">
+            <summary class="faq__q"><span class="faq__icon" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><rect x="4" y="5" width="16" height="14" rx="2"/><circle cx="9" cy="10" r="1.6"/><path d="M20 16l-4.5-4.5L9 19"/></svg></span>Вы сами рисуете инфографику?</summary>
+            <div class="faq__a"><p>Нет. Ставлю чёткое ТЗ на визуал для дизайнера: что, в каком размере и зачем нужно на картинке.</p></div>
+          </details>
+          <details class="faq__item">
+            <summary class="faq__q"><span class="faq__icon" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M12 4l1.7 4.3L18 10l-4.3 1.7L12 16l-1.7-4.3L6 10l4.3-1.7z"/><path d="M18.5 15.5l.7 1.8 1.8.7-1.8.7-.7 1.8-.7-1.8-1.8-.7 1.8-.7z"/></svg></span>Вы используете ИИ?</summary>
+            <div class="faq__a"><p>Да, как помощника: Claude, DeepSeek, Qwen, OpenCode. Результат проверяю и довожу до ума сама — отвечаю за текст и код лично.</p></div>
+          </details>
+          <details class="faq__item">
+            <summary class="faq__q"><span class="faq__icon" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M4 5h2l2.2 10.2a2 2 0 002 1.6h6.6a2 2 0 002-1.6L20.5 8H7"/><circle cx="10" cy="20" r="1.4"/><circle cx="17" cy="20" r="1.4"/></svg></span>С какими маркетплейсами работаете?</summary>
+            <div class="faq__a"><p>Ozon, Wildberries и Яндекс Маркет.</p></div>
+          </details>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============ 9. Финальный призыв ============ -->
+    <section class="cta-final">
+      <div class="container cta-final__inner reveal">
+        <span class="cta-final__icon" aria-hidden="true">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round">
+            <path d="M21 4L3 11l6.2 2.4L12 20l3-6.2z"/>
+            <path d="M21 4L9.2 13.4"/>
+          </svg>
+        </span>
+        <h2 class="cta-final__title">Расскажите о своей <em>задаче</em></h2>
+        <p class="cta-final__text">Напишите в Telegram — обсудим задачу и назову оценку по часам. Без форм и ожидания: просто диалог.</p>
+        <div class="cta-final__actions">
+          <a class="btn btn--primary" href="#" data-contact="telegram">Написать в Telegram</a>
+          <a class="link link--mail" href="#" data-contact="email">или написать на почту</a>
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+  <!-- ============ 10. Подвал ============ -->
+  <footer class="footer">
+    <div class="container footer__inner">
+      <div class="footer__brand">
+        <p class="footer__name">Марина Проскунова</p>
+        <p class="footer__tag">маркетплейсы, тексты, лендинги, трекинг</p>
+      </div>
+      <div class="footer__contacts">
+        <a class="link" href="#" data-contact="telegram">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+            <path d="M21 4L3 11l6.2 2.4L12 20l3-6.2z"/>
+            <path d="M21 4L9.2 13.4"/>
+          </svg>
+          Telegram
+        </a>
+        <a class="link" href="#" data-contact="email">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+            <rect x="3" y="5" width="18" height="14" rx="2"/>
+            <path d="M3.5 7.5L12 13l8.5-5.5"/>
+          </svg>
+          Почта
+        </a>
+      </div>
+      <p class="footer__copy">© <span data-year>2026</span></p>
+    </div>
+  </footer>
+
+  <script src="app.js"></script>
+</body>
+</html>

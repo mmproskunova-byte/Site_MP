@@ -1,0 +1,11 @@
+# Рабочие файлы проекта — на сайте не нужны
+ТЗ для сайта.txt
+Стиль сайт.png
+
+# Системное
+Thumbs.db
+desktop.ini
+.DS_Store
+*.log
+.vscode/
+.idea/

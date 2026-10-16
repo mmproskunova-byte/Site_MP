@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://mmproskunova-byte.github.io/sitemap.xml
