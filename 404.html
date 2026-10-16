@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Страница не найдена — Марина Проскунова</title>
+  <meta name="robots" content="noindex">
+  <meta name="theme-color" content="#F3F5F9">
+  <link rel="icon" href="favicon.svg" type="image/svg+xml">
+  <style>
+    :root {
+      --bg: #F3F5F9;
+      --ink: #2B2018;
+      --ink-soft: #6F6151;
+      --gold: #B4823A;
+      --card: #FFFFFF;
+      --line: #DCE2EC;
+      --radius: 16px;
+    }
+    * { box-sizing: border-box; }
+    body {
+      margin: 0;
+      min-height: 100vh;
+      display: grid;
+      place-items: center;
+      padding: 24px;
+      background: var(--bg);
+      color: var(--ink);
+      font-family: "Inter", system-ui, -apple-system, "Segoe UI", Roboto, Arial, sans-serif;
+      text-align: center;
+    }
+    .box {
+      max-width: 520px;
+      padding: 40px 28px;
+      background: var(--card);
+      border: 1px solid var(--line);
+      border-radius: var(--radius);
+      box-shadow: 0 12px 30px rgba(30, 41, 59, 0.08);
+    }
+    .star { width: 40px; height: 40px; color: var(--gold); }
+    .code {
+      margin: 12px 0 0;
+      font-family: "Playfair Display", Georgia, serif;
+      font-size: 56px;
+      font-weight: 700;
+      line-height: 1;
+      color: var(--ink);
+    }
+    h1 {
+      margin: 10px 0 0;
+      font-family: "Playfair Display", Georgia, serif;
+      font-size: 26px;
+      line-height: 1.2;
+    }
+    p { margin: 12px 0 0; color: var(--ink-soft); line-height: 1.55; }
+    a.btn {
+      display: inline-block;
+      margin-top: 24px;
+      padding: 13px 26px;
+      border-radius: 999px;
+      background: var(--gold);
+      color: #FFFFFF;
+      font-weight: 600;
+      text-decoration: none;
+    }
+    a.btn:hover { background: #A87832; }
+    a:focus-visible { outline: 3px solid var(--gold); outline-offset: 3px; border-radius: 6px; }
+    @media (prefers-reduced-motion: no-preference) {
+      a.btn { transition: background 0.2s ease; }
+    }
+  </style>
+</head>
+<body>
+  <main class="box">
+    <svg class="star" viewBox="0 0 32 32" fill="currentColor" aria-hidden="true">
+      <path d="M16 5 L18.7 12.78 L26.94 12.95 L20.37 17.92 L22.76 25.8 L16 21.1 L9.24 25.8 L11.63 17.92 L5.06 12.95 L13.3 12.78 Z"/>
+    </svg>
+    <p class="code">404</p>
+    <h1>Такой страницы нет</h1>
+    <p>Возможно, ссылка устарела или в адресе опечатка. Вернитесь на главную — там услуги, кейсы и контакты.</p>
+    <a class="btn" href="./">На главную</a>
+  </main>
+</body>
+</html>
